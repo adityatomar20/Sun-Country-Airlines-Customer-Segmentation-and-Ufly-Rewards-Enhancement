@@ -1,14 +1,27 @@
-### Sun Country Airlines wanted to understand its customers better and improve its online booking channels to meet the expectations of twenty-first-century travelers. The main goal was to increase enrollment in their Ufly Rewards program and drive more customers to Sun Country Airlines. To achieve this, the analysis aimed to identify meaningful customer segments to increase Ufly membership and website bookings.
+#### Business Challenge:
+Sun Country Airlines aimed to enhance its understanding of customers and optimize online booking channels to boost Ufly Rewards program enrollment and drive more customers to the airline. The overarching goal was to align services with the expectations of contemporary travelers.
 
-- To accomplish this, the team visualized 3 years of flight data containing over 3 million records to get a better understanding of the dataset. They then aggregated the data into customer-level to focus on the customer-based business problem. To reduce noise and improve computational efficiency, they implemented PCA before clustering the customers into meaningful groups based on similar flying traits using K-means.
+### Data Analysis Approach:
+To tackle this challenge, the team embarked on a comprehensive analysis of three years of flight data, comprising over 3 million records. The initial step involved visualizing the dataset to gain insights, following which the data was aggregated at the customer level to address the specific customer-centric business problem. To streamline computational efficiency and mitigate noise, Principal Component Analysis (PCA) was implemented before applying K-means clustering to identify meaningful customer segments with similar flying traits.
 
-- The team also analyzed how long it takes to become a Ufly member and combined the cluster solution with the Ufly membership analysis to recommend targeting specific clusters to improve Ufly membership and increase website bookings. These insights allowed Sun Country to understand its customers better and meet their needs through the Ufly membership program.
+### Membership Duration Analysis:
+In addition to clustering, the team delved into understanding the timeframe required for customers to become Ufly members. This information was crucial for aligning cluster solutions with Ufly membership analysis, providing actionable recommendations for targeting specific clusters to enhance Ufly membership and drive website bookings.
 
-The analysis resulted in 5 distinct customer clusters.
-- Cluster 1 consisted of frequent 1st-class flyers who spent an average of $622 per flight and were the smallest cluster with only 2.4% of all customers. 
-- Cluster 2 was made up of one-time low-spenders who spent an average of $107 per flight. 
-- Cluster 3, the largest cluster with 617,000 customers, consisted of SCA bookers who made over 99% of their bookings from the SCA website or SY vacation. 
-- Cluster 4, the outside bookers, consisted of customers who almost exclusively booked from outside channels with a membership proportion of only 11%. 
-- Finally, cluster 5, the upgraders, as defined by the percentage of seat upgrades and accounted for 70% of all upgrades among all the clusters.
+### Key Customer Clusters:
+The analysis resulted in the identification of five distinct customer clusters, each representing a unique segment of Sun Country Airlines' customer base:
 
-Overall, the analysis provided Sun Country Airlines with valuable insights into their customer base and allowed them to target specific clusters to increase Ufly membership and website bookings.
+#### Cluster 1 - Elite Flyers: Comprised of frequent 1st-class flyers characterized by an average spending of $622 per flight. Although the smallest cluster (2.4% of customers), they represented a high-value segment.
+
+#### Cluster 2 - One-time Low-Spenders: Consisted of customers who were one-time, low-spenders with an average expenditure of $107 per flight.
+
+#### Cluster 3 - SCA Bookers: The largest cluster (617,000 customers), with over 99% of their bookings originating from the Sun Country Airlines website or SY vacation platform.
+
+#### Cluster 4 - Outside Bookers: Encompassed customers who predominantly booked from external channels, with a relatively low Ufly membership proportion (11%).
+
+#### Cluster 5 - Upgraders: Defined by a high percentage of seat upgrades, accounting for 70% of all upgrades across all clusters.
+
+### Strategic Insights and Recommendations:
+Armed with these cluster insights, Sun Country Airlines gained a nuanced understanding of its customer base. This allowed targeted efforts to increase Ufly membership and encourage website bookings. For instance, specific strategies could be devised for each cluster, such as personalized loyalty programs for elite flyers or targeted promotions to convert one-time low-spenders into loyal customers.
+
+### Outcome:
+The analysis provided Sun Country Airlines with actionable insights, enabling the airline to refine its marketing and service strategies. By tailoring approaches to specific customer clusters, Sun Country Airlines could enhance the Ufly Rewards program's appeal, increase customer loyalty, and optimize website bookings, thereby meeting the evolving needs of twenty-first-century travelers.
