@@ -1,4 +1,4 @@
-#### Business Challenge:
+### Business Challenge:
 Sun Country Airlines aimed to enhance its understanding of customers and optimize online booking channels to boost Ufly Rewards program enrollment and drive more customers to the airline. The overarching goal was to align services with the expectations of contemporary travelers.
 
 ### Data Analysis Approach:
